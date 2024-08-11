@@ -1,0 +1,55 @@
+/* Container for the emotions section */
+.Emotions {
+    background: #D4E5F4;
+    width: 1280px;
+    height: 1748px;
+    position: relative;
+}
+
+/* Dialog box for user input */
+.BasicDialog {
+    width: 716px;
+    height: 138px;
+    position: absolute;
+    left: 283px;
+    top: 238px;
+    background: linear-gradient(0deg, #ECE6F0 0%, #ECE6F0 100%), linear-gradient(0deg, #BCD3EB 0%, #BCD3EB 100%);
+    border-radius: 28px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Input box styling */
+input[type="text"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/* Actions container */
+.Actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}

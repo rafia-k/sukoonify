@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukoonify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- <div class="SignIn" style="width: 1280px; height: 832px; position: relative; background: #D4E5F4">
+        <div class="Content"
+            style="padding-left: 24px; padding-right: 24px; left: 452px; top: 317px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex">
+            <div class="Copy"
+                style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 2px; display: flex">
+                <div class="CreateAnAccount"
+                    style="text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 600; line-height: 27px; word-wrap: break-word">
+                    Create an account</div>
+                <div class="EnterYourEmailToSignUpForThisApp"
+                    style="text-align: center; color: black; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 21px; word-wrap: break-word">
+                    Enter your email to sign up for this app</div>
+            </div>
+            <div class="InputAndButton"
+                style="height: 96px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                <div class="Field"
+                    style="align-self: stretch; height: 40px; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; background: #F3F3F3; border-radius: 8px; border: 1px #E0E0E0 solid; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
+                    <div class="Label"
+                        style="flex: 1 1 0; color: #30457C; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 19.60px; word-wrap: break-word">
+                        email@domain.com</div>
+                </div>
+                <div class="Button"
+                    style="align-self: stretch; height: 40px; padding-left: 16px; padding-right: 16px; background: black; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                    <div class="Primary"
+                        style="color: #F3F3F3; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 19.60px; word-wrap: break-word">
+                        Sign up with email</div>
+                </div>
+            </div>
+            <div class="Divider"
+                style="width: 327px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                <div class="Divider" style="flex: 1 1 0; height: 1px; background: #E6E6E6"></div>
+                <div class="OrContinueWith"
+                    style="text-align: center; color: #30457C; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 19.60px; word-wrap: break-word">
+                    or continue with</div>
+                <div class="Divider" style="flex: 1 1 0; height: 1px; background: #E6E6E6"></div>
+            </div>
+            <div class="Button"
+                style="width: 327px; padding-top: 10px; padding-bottom: 10px; background: #EEEEEE; border-radius: 8px; justify-content: center; align-items: center; display: inline-flex">
+                <div class="Label"
+                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                    <div class="Google" style="width: 20px; height: 20px; position: relative">
+                        <div class="Vector"
+                            style="width: 9.79px; height: 9.37px; left: 10.20px; top: 8.15px; position: absolute; background: #4285F4">
+                        </div>
+                        <div class="Vector"
+                            style="width: 15.86px; height: 7.99px; left: 1.09px; top: 11.94px; position: absolute; background: #34A853">
+                        </div>
+                        <div class="Vector"
+                            style="width: 4.40px; height: 9px; left: 0px; top: 5.44px; position: absolute; background: #FBBC05">
+                        </div>
+                        <div class="Vector"
+                            style="width: 15.93px; height: 7.99px; left: 1.09px; top: 0px; position: absolute; background: #EB4335">
+                        </div>
+                    </div>
+                    <div class="Google"
+                        style="color: black; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 19.60px; word-wrap: break-word">
+                        Google</div>
+                </div>
+            </div>
+            <div class="ByClickingContinueYouAgreeToOurTermsOfServiceAndPrivacyPolicy"
+                style="align-self: stretch; text-align: center"><span
+                    style="color: #30457C; font-size: 12px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">By
+                    clicking continue, you agree to our </span><span
+                    style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">Terms
+                    of Service</span><span
+                    style="color: #30457C; font-size: 12px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">
+                    and </span><span
+                    style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">Privacy
+                    Policy</span></div>
+        </div>
+        <div class="Sukoonify"
+            style="width: 229px; height: 62px; left: 526px; top: 214px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Inter; font-weight: 600; line-height: 60px; word-wrap: break-word">
+            SUKOONify</div>
+        <img class="Image1"
+            style="width: 1697px; height: 1144px; left: -208px; top: -86px; position: absolute; opacity: 0.10; border-radius: 218px"
+            src="https://via.placeholder.com/1697x1144" />
+        <div class="ChromeBrowserBar"
+            style="width: 1280px; height: 60px; padding: 16px; left: 1px; top: 18px; position: absolute; background: linear-gradient(0deg, white 0%, white 100%), linear-gradient(0deg, white 0%, white 100%); box-shadow: 0px 0.5936920642852783px 0px rgba(0, 0, 0, 0.15); justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
+            <div class="Icons" style="justify-content: flex-start; align-items: center; gap: 12px; display: flex">
+                <div class="Back"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Forward"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Refresh"
+                    style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; padding-left: 4.01px; padding-right: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 15.99px; height: 16px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="AddressBar"
+                style="flex: 1 1 0; height: 36px; padding-left: 16px; padding-right: 16px; padding-top: 6px; padding-bottom: 6px; background: linear-gradient(0deg, rgba(232, 222, 248, 0.16) 0%, rgba(232, 222, 248, 0.16) 100%), linear-gradient(0deg, rgba(8.78, 26.17, 87.83, 0.06) 0%, rgba(8.78, 26.17, 87.83, 0.06) 100%); border-radius: 46.08px; overflow: hidden; justify-content: space-between; align-items: center; display: flex">
+                <div class="Url"
+                    style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                    <div class="Lock"
+                        style="width: 15.36px; height: 15.36px; padding-top: 0.64px; padding-bottom: 1.28px; padding-left: 2.56px; padding-right: 2.56px; justify-content: center; align-items: center; display: flex">
+                        <div class="Icon" style="width: 10.24px; height: 13.44px; opacity: 0.65; background: #49454F">
+                        </div>
+                    </div>
+                    <div class="Text"
+                        style="flex: 1 1 0; color: #1D1B20; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                        www.sukoonify.com</div>
+                </div>
+                <div class="Star"
+                    style="width: 20px; height: 20px; padding-top: 1.67px; padding-bottom: 2.50px; padding-left: 1.67px; padding-right: 1.67px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16.67px; height: 15.83px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="Avatar"
+                style="padding-top: 2.82px; padding-bottom: 1.18px; padding-left: 9.18px; padding-right: 8.82px; background: #79747E; border-radius: 109.09px; overflow: hidden; justify-content: center; align-items: center; display: flex">
+                <div class="Z"
+                    style="text-align: center; color: white; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                    Z</div>
+            </div>
+            <div class="More"
+                style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; justify-content: center; align-items: center; display: flex">
+                <div class="Icon" style="width: 4px; height: 16px; background: #79747E"></div>
+            </div>
+        </div>
+        <div class="StatusBarIpad"
+            style="width: 1280px; height: 27px; padding-left: 26px; padding-right: 26px; left: 0px; top: 0px; position: absolute; background: white; justify-content: space-between; align-items: center; display: inline-flex">
+            <div class="Left"
+                style="padding-top: 2px; padding-bottom: 2px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div class="Time"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    9:41</div>
+                <div class="Date"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    Mon Jun 10</div>
+            </div>
+            <div class="Right"
+                style="padding-top: 5px; padding-bottom: 5px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                <div class="CombinedShape" style="width: 16.50px; height: 10px; background: black"></div>
+                <div class="CombinedShape" style="width: 14.05px; height: 10px; background: black"></div>
+                <div
+                    style="text-align: right; color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; line-height: 14px; word-wrap: break-word">
+                    100%</div>
+                <div class="BatteryIcon" style="width: 26.50px; height: 12px; position: relative">
+                    <img class="CombinedShape"
+                        style="width: 26.50px; height: 12px; left: 0px; top: 0px; position: absolute; opacity: 0.40; border: 1px black solid"
+                        src="https://via.placeholder.com/26x12" />
+                    <div class="Capacity"
+                        style="width: 20px; height: 8px; left: 2px; top: 2px; position: absolute; background: black; border-radius: 1.50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="Home" style="width: 1280px; height: 832px; position: relative; background: #F2F4F7">
+        <img class="Image2" style="width: 875px; height: 645px; left: 203px; top: 149px; position: absolute"
+            src="https://via.placeholder.com/875x645" />
+        <div class="Button"
+            style="height: 50px; padding: 12px; left: 479px; top: 693px; position: absolute; background: linear-gradient(0deg, #2C2C2C 0%, #2C2C2C 100%), linear-gradient(0deg, #2F4F84 0%, #2F4F84 100%); border-radius: 8px; overflow: hidden; border: 1px #30457C solid; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+            <div class="Button"
+                style="color: #F5F5F5; font-size: 24px; font-family: Inter; font-weight: 600; line-height: 28.80px; word-wrap: break-word">
+                Register</div>
+        </div>
+        <div class="Button"
+            style="height: 50px; padding: 12px; left: 683px; top: 693px; position: absolute; background: linear-gradient(0deg, #2C2C2C 0%, #2C2C2C 100%), linear-gradient(0deg, #2F4F84 0%, #2F4F84 100%); border-radius: 8px; overflow: hidden; border: 1px #30457C solid; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+            <div class="Button"
+                style="color: #F5F5F5; font-size: 24px; font-family: Inter; font-weight: 600; line-height: 28.80px; word-wrap: break-word">
+                Sign In</div>
+        </div>
+        <div class="StatusBarIpad"
+            style="width: 1280px; height: 27px; padding-left: 26px; padding-right: 26px; left: 0px; top: -1px; position: absolute; background: white; justify-content: space-between; align-items: center; display: inline-flex">
+            <div class="Left"
+                style="padding-top: 2px; padding-bottom: 2px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div class="Time"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    9:41</div>
+                <div class="Date"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    Mon Jun 10</div>
+            </div>
+            <div class="Right"
+                style="padding-top: 5px; padding-bottom: 5px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                <div class="CombinedShape" style="width: 16.50px; height: 10px; background: black"></div>
+                <div class="CombinedShape" style="width: 14.05px; height: 10px; background: black"></div>
+                <div
+                    style="text-align: right; color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; line-height: 14px; word-wrap: break-word">
+                    100%</div>
+                <div class="BatteryIcon" style="width: 26.50px; height: 12px; position: relative">
+                    <img class="CombinedShape"
+                        style="width: 26.50px; height: 12px; left: 0px; top: 0px; position: absolute; opacity: 0.40; border: 1px black solid"
+                        src="https://via.placeholder.com/26x12" />
+                    <div class="Capacity"
+                        style="width: 20px; height: 8px; left: 2px; top: 2px; position: absolute; background: black; border-radius: 1.50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ChromeBrowserBar"
+            style="width: 1280px; height: 60px; padding: 16px; left: 0px; top: 19px; position: absolute; background: linear-gradient(0deg, white 0%, white 100%), linear-gradient(0deg, white 0%, white 100%); box-shadow: 0px 0.5936920642852783px 0px rgba(0, 0, 0, 0.15); justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
+            <div class="Icons" style="justify-content: flex-start; align-items: center; gap: 12px; display: flex">
+                <div class="Back"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Forward"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Refresh"
+                    style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; padding-left: 4.01px; padding-right: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 15.99px; height: 16px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="AddressBar"
+                style="flex: 1 1 0; height: 36px; padding-left: 16px; padding-right: 16px; padding-top: 6px; padding-bottom: 6px; background: linear-gradient(0deg, rgba(232, 222, 248, 0.16) 0%, rgba(232, 222, 248, 0.16) 100%), linear-gradient(0deg, rgba(8.78, 26.17, 87.83, 0.06) 0%, rgba(8.78, 26.17, 87.83, 0.06) 100%); border-radius: 46.08px; overflow: hidden; justify-content: space-between; align-items: center; display: flex">
+                <div class="Url"
+                    style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                    <div class="Lock"
+                        style="width: 15.36px; height: 15.36px; padding-top: 0.64px; padding-bottom: 1.28px; padding-left: 2.56px; padding-right: 2.56px; justify-content: center; align-items: center; display: flex">
+                        <div class="Icon" style="width: 10.24px; height: 13.44px; opacity: 0.65; background: #49454F">
+                        </div>
+                    </div>
+                    <div class="Text"
+                        style="flex: 1 1 0; color: #1D1B20; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                        www.sukoonify.com</div>
+                </div>
+                <div class="Star"
+                    style="width: 20px; height: 20px; padding-top: 1.67px; padding-bottom: 2.50px; padding-left: 1.67px; padding-right: 1.67px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16.67px; height: 15.83px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="Avatar"
+                style="padding-top: 2.82px; padding-bottom: 1.18px; padding-left: 9.18px; padding-right: 8.82px; background: #79747E; border-radius: 109.09px; overflow: hidden; justify-content: center; align-items: center; display: flex">
+                <div class="Z"
+                    style="text-align: center; color: white; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                    Z</div>
+            </div>
+            <div class="More"
+                style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; justify-content: center; align-items: center; display: flex">
+                <div class="Icon" style="width: 4px; height: 16px; background: #79747E"></div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="Emotions" style="width: 1280px; height: 1748px; position: relative; background: #D4E5F4">
+        <div class="Content"
+            style="width: 817px; height: 1435px; left: 232px; top: 207px; position: absolute; background: white; border-radius: 28px">
+        </div>
+        <div class="Or"
+            style="width: 58px; height: 48px; left: 612px; top: 411px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">
+            OR</div>
+        <div class="BasicDialog"
+            style="width: 716px; height: 138px; left: 283px; top: 238px; position: absolute; background: linear-gradient(0deg, #ECE6F0 0%, #ECE6F0 100%), linear-gradient(0deg, #BCD3EB 0%, #BCD3EB 100%); border-radius: 28px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+
+            <div class="Actions"
+                style="height: 88px; flex-direction: column; justify-content: flex-start; align-items: center; display: flex; text-align: center;">
+                <input type="text" id="userInput" placeholder="Type what you are feeling..."
+                    style="width: 80%; max-width: 400px; padding: 10px; margin: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                <button onclick="submitFeeling()"
+                    style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: white; cursor: pointer;">Submit</button>
+            </div>
+        </div>
+        <div class="SimpleCardGrid" id="results"></div>
+        <div class="SimpleCardGrid"
+            style="width: 733px; height: 1136px; padding-bottom: 32px; left: 274px; top: 467px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div class="TitleHeader"
+                style="align-self: stretch; padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; justify-content: flex-start; align-items: center; display: inline-flex">
+                <div class="Title"
+                    style="color: #566581; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">
+                    Choose an Emotion</div>
+                <div class="IconButton"
+                    style="width: 48px; height: 48px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                    <div class="Container"
+                        style="border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div class="StateLayer"
+                            style="padding: 8px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                            <div class="Icon"
+                                style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                                <div class="Icon"
+                                    style="width: 16px; height: 16px; background: linear-gradient(0deg, #1D1B20 0%, #1D1B20 100%), linear-gradient(0deg, #566581 0%, #566581 100%)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Column01"
+                style="align-self: stretch; height: 1072px; padding-left: 24px; padding-right: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                <div class="ListItem01"
+                    style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                    <div class="TextAndImage"
+                        style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                        <div class="Image"
+                            style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, #FFA4A4 0%, #FFA4A4 100%); border-radius: 16px">
+                        </div>
+                        <div class="Content"
+                            style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                            <div class="TitleDescription"
+                                style="align-self: stretch; height: 52px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                <div class="Title"
+                                    style="align-self: stretch; color: #566581; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                    Angry</div>
+                                <div class="SecondaryText"
+                                    style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                    click to see more...</div>
+                            </div>
+                            <div class="LeadingTrailingIcons"
+                                style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                <div class="Leading" style="flex: 1 1 0; height: 24px"></div>
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ListItem7"
+                    style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                    <div class="TextAndImage"
+                        style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                        <div class="Image"
+                            style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, rgba(24.10, 67.03, 150.36, 0.61) 0%, rgba(24.10, 67.03, 150.36, 0.61) 100%); border-radius: 16px">
+                        </div>
+                        <div class="Content"
+                            style="align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                            <div class="TitleDescription"
+                                style="height: 52px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                <div class="Title"
+                                    style="align-self: stretch; color: #566581; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                    Sad</div>
+                                <div class="SecondaryText"
+                                    style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                    click to see more...</div>
+                            </div>
+                            <div class="LeadingTrailingIcons"
+                                style="width: 549px; justify-content: space-between; align-items: center; display: inline-flex">
+                                <div class="Leading" style="flex: 1 1 0; height: 24px"></div>
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ListItem03"
+                    style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                    <div class="TextAndImage"
+                        style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                        <div class="Image"
+                            style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, #F88AC5 0%, #F88AC5 100%); border-radius: 16px">
+                        </div>
+                        <div class="Content"
+                            style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                            <div class="TitleDescription"
+                                style="align-self: stretch; height: 52px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                <div class="Title"
+                                    style="align-self: stretch; color: #566581; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                    Frustrating </div>
+                                <div class="SecondaryText"
+                                    style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                    click to see more...</div>
+                            </div>
+                            <div class="LeadingTrailingIcons"
+                                style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                <div class="Leading" style="flex: 1 1 0; height: 24px"></div>
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ListItem05" style="align-self: stretch; height: 120px; border-radius: 12px"></div>
+
+            </div>
+        </div>
+
+        <img class="Image1"
+            style="width: 70px; height: 68px; left: 543px; top: 1664px; position: absolute; border-radius: 218px"
+            src="https://via.placeholder.com/70x68" />
+        <div class="Sukoonify"
+            style="width: 229px; height: 62px; left: 526px; top: 114px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Inter; font-weight: 600; line-height: 60px; word-wrap: break-word">
+            SUKOONify</div>
+        <div class="Sukoonify"
+            style="width: 183px; height: 53px; left: 586px; top: 1670px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px; word-wrap: break-word">
+            SUKOONify</div>
+    </div>
+
+
+    <div class="Emotions" style="width: 1280px; height: 1360px; position: relative; background: #D4E5F4">
+        <div class="ChromeBrowserBar"
+            style="width: 1280px; height: 60px; padding: 16px; left: 1px; top: 18px; position: absolute; background: linear-gradient(0deg, white 0%, white 100%), linear-gradient(0deg, white 0%, white 100%); box-shadow: 0px 0.5936920642852783px 0px rgba(0, 0, 0, 0.15); justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
+            <div class="Icons" style="justify-content: flex-start; align-items: center; gap: 12px; display: flex">
+                <div class="Back"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Forward"
+                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16px; height: 16px; background: #79747E"></div>
+                </div>
+                <div class="Refresh"
+                    style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; padding-left: 4.01px; padding-right: 4px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 15.99px; height: 16px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="AddressBar"
+                style="flex: 1 1 0; height: 36px; padding-left: 16px; padding-right: 16px; padding-top: 6px; padding-bottom: 6px; background: linear-gradient(0deg, rgba(232, 222, 248, 0.16) 0%, rgba(232, 222, 248, 0.16) 100%), linear-gradient(0deg, rgba(8.78, 26.17, 87.83, 0.06) 0%, rgba(8.78, 26.17, 87.83, 0.06) 100%); border-radius: 46.08px; overflow: hidden; justify-content: space-between; align-items: center; display: flex">
+                <div class="Url"
+                    style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                    <div class="Lock"
+                        style="width: 15.36px; height: 15.36px; padding-top: 0.64px; padding-bottom: 1.28px; padding-left: 2.56px; padding-right: 2.56px; justify-content: center; align-items: center; display: flex">
+                        <div class="Icon" style="width: 10.24px; height: 13.44px; opacity: 0.65; background: #49454F">
+                        </div>
+                    </div>
+                    <div class="Text"
+                        style="flex: 1 1 0; color: #1D1B20; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                        www.sukoonify.com</div>
+                </div>
+                <div class="Star"
+                    style="width: 20px; height: 20px; padding-top: 1.67px; padding-bottom: 2.50px; padding-left: 1.67px; padding-right: 1.67px; justify-content: center; align-items: center; display: flex">
+                    <div class="Icon" style="width: 16.67px; height: 15.83px; background: #79747E"></div>
+                </div>
+            </div>
+            <div class="Avatar"
+                style="padding-top: 2.82px; padding-bottom: 1.18px; padding-left: 9.18px; padding-right: 8.82px; background: #79747E; border-radius: 109.09px; overflow: hidden; justify-content: center; align-items: center; display: flex">
+                <div class="Z"
+                    style="text-align: center; color: white; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">
+                    Z</div>
+            </div>
+            <div class="More"
+                style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; justify-content: center; align-items: center; display: flex">
+                <div class="Icon" style="width: 4px; height: 16px; background: #79747E"></div>
+            </div>
+        </div>
+        <div class="StatusBarIpad"
+            style="width: 1280px; height: 27px; padding-left: 26px; padding-right: 26px; left: 0px; top: 0px; position: absolute; background: white; justify-content: space-between; align-items: center; display: inline-flex">
+            <div class="Left"
+                style="padding-top: 2px; padding-bottom: 2px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div class="Time"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    9:41</div>
+                <div class="Date"
+                    style="color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                    Mon Jun 10</div>
+            </div>
+            <div class="Right"
+                style="padding-top: 5px; padding-bottom: 5px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                <div class="CombinedShape" style="width: 16.50px; height: 10px; background: black"></div>
+                <div class="CombinedShape" style="width: 14.05px; height: 10px; background: black"></div>
+                <div
+                    style="text-align: right; color: black; font-size: 12px; font-family: SF Pro; font-weight: 510; line-height: 14px; word-wrap: break-word">
+                    100%</div>
+                <div class="BatteryIcon" style="width: 26.50px; height: 12px; position: relative">
+                    <img class="CombinedShape"
+                        style="width: 26.50px; height: 12px; left: 0px; top: 0px; position: absolute; opacity: 0.40; border: 1px black solid"
+                        src="https://via.placeholder.com/26x12" />
+                    <div class="Capacity"
+                        style="width: 20px; height: 8px; left: 2px; top: 2px; position: absolute; background: black; border-radius: 1.50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Content"
+            style="width: 817px; height: 324px; left: 232px; top: 201px; position: absolute; background: white; border-radius: 28px">
+        </div>
+        <div class="BasicDialog"
+            style="width: 716px; height: 138px; left: 283px; top: 232px; position: absolute; background: linear-gradient(0deg, #ECE6F0 0%, #ECE6F0 100%), linear-gradient(0deg, #BCD3EB 0%, #BCD3EB 100%); border-radius: 28px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div class="TextContent"
+                style="height: 56px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                <div class="TitleDescription"
+                    style="align-self: stretch; height: 56px; padding-top: 24px; padding-left: 24px; padding-right: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                    <div class="Headline" style="align-self: stretch"><span
+                            style="color: #566581; font-size: 20px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">I
+                            am </span><span
+                            style="color: #FF3D3D; font-size: 20px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">struggling</span><span
+                            style="color: #566581; font-size: 20px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">
+                            to find a job...</span></div>
+                </div>
+            </div>
+            <div class="Actions"
+                style="height: 88px; flex-direction: column; justify-content: flex-start; align-items: flex-end; display: flex">
+            </div>
+        </div>
+        <div class="Sukoonify"
+            style="width: 229px; height: 62px; left: 526px; top: 108px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Inter; font-weight: 600; line-height: 60px; word-wrap: break-word">
+            SUKOONify</div>
+        <div class="Content"
+            style="width: 817px; height: 818px; left: 231px; top: 433px; position: absolute; background: white; border-radius: 28px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div class="TopAppBar"
+                style="align-self: stretch; height: 64px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+                <div class="LeadingIcon"
+                    style="width: 48px; height: 48px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                    <div class="Container"
+                        style="border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div class="StateLayer"
+                            style="padding: 8px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                            <div class="Icon"
+                                style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                                <div class="Icon" style="width: 16px; height: 16px; background: #1D1B20"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Headline" style="flex: 1 1 0"><span
+                        style="color: #1D1B20; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">Key
+                        things related to </span><span
+                        style="color: #FF3D3D; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">struggling</span>
+                </div>
+                <div class="TrailingIcon"
+                    style="width: 96px; justify-content: flex-end; align-items: center; display: flex">
+                    <div class="TrailingIcon1"
+                        style="width: 48px; height: 48px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div class="Container"
+                            style="border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <div class="StateLayer"
+                                style="padding: 8px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding-left: 5px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 14px; height: 18px; background: #49454F"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="TrailingIcon3"
+                        style="width: 48px; height: 48px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div class="Container"
+                            style="border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <div class="StateLayer"
+                                style="padding: 8px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding-top: 4px; padding-bottom: 4px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 4px; height: 16px; background: #49454F"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Header"
+                style="align-self: stretch; padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                <div class="Image"
+                    style="width: 216px; height: 216px; position: relative; background: linear-gradient(0deg, #C4B4CD 0%, #C4B4CD 100%); border-radius: 28px">
+                </div>
+                <div class="TextColumn"
+                    style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                    <div class="HeadlineSupportingText"
+                        style="align-self: stretch; height: 96px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div class="Headline"
+                            style="align-self: stretch; color: #1D1B20; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">
+                            How to deal with problems in Islam</div>
+                        <div class="PublishedDate"
+                            style="align-self: stretch; color: #49454F; font-size: 11px; font-family: Roboto; font-weight: 500; line-height: 16px; letter-spacing: 0.50px; word-wrap: break-word">
+                            August 20, 2016</div>
+                        <div class="SupportingText"
+                            style="align-self: stretch; color: #1D1B20; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                            “Allah does not burden a soul beyond that it can bear.”(Quran 2:286)<br /></div>
+                    </div>
+                    <div class="Button"
+                        style="width: 111px; background: #65558F; border-radius: 100px; overflow: hidden; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: flex">
+                        <div class="StateLayer"
+                            style="align-self: stretch; flex: 1 1 0; padding-left: 24px; padding-right: 24px; padding-top: 10px; padding-bottom: 10px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                            <div class="LabelText"
+                                style="text-align: center; color: white; font-size: 14px; font-family: Roboto; font-weight: 500; line-height: 20px; letter-spacing: 0.10px; word-wrap: break-word">
+                                Download</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SimpleCardGrid"
+                style="align-self: stretch; height: 472px; padding-bottom: 32px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                <div class="TitleHeader"
+                    style="align-self: stretch; padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; justify-content: flex-start; align-items: center; display: inline-flex">
+                    <div class="Title"
+                        style="color: #1D1B20; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 32px; word-wrap: break-word">
+                        Section title</div>
+                    <div class="IconButton"
+                        style="width: 48px; height: 48px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div class="Container"
+                            style="border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <div class="StateLayer"
+                                style="padding: 8px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                                <div class="Icon"
+                                    style="width: 24px; height: 24px; padding: 4px; justify-content: center; align-items: center; display: flex">
+                                    <div class="Icon" style="width: 16px; height: 16px; background: #1D1B20"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Column01"
+                    style="align-self: stretch; height: 392px; padding-left: 24px; padding-right: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                    <div class="ListItem01"
+                        style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div class="TextAndImage"
+                            style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                            <div class="Image"
+                                style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, #A08D8D 0%, #A08D8D 100%); border-radius: 16px">
+                            </div>
+                            <div class="Content"
+                                style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                                <div class="TitleDescription"
+                                    style="align-self: stretch; height: 84px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                    <div class="Title"
+                                        style="align-self: stretch; height: 32px; color: #1D1B20; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                        Duas for Distress</div>
+                                    <div class="SecondaryText"
+                                        style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                        اللَّهُمَّ رَحْمَتَكَ أَرْجُو فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ
+                                        وَأَصْلِحْ لِي شَأْنِي كُلَّهُ لَا إِلَهَ إِلَا أَنْت<br />“O Allah, I hope for
+                                        Your mercy. Do not leave me to myself even for a blink of an eye. Correct all of
+                                        my affairs for me. There is none worthy of worship except You.”<br /></div>
+                                </div>
+                                <div class="LeadingTrailingIcons"
+                                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                    <div class="Leading"
+                                        style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                                        <div class="Icon"
+                                            style="width: 24px; height: 24px; padding: 2px; justify-content: center; align-items: center; display: flex">
+                                            <div class="Icon" style="width: 20px; height: 20px; background: #1D1B20">
+                                            </div>
+                                        </div>
+                                        <div class="Date"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            Today</div>
+                                        <div class="Separator"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            •</div>
+                                        <div class="Time"
+                                            style="flex: 1 1 0; color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            0.23 sec</div>
+                                    </div>
+                                    <div class="Icon"
+                                        style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                        <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ListItem02"
+                        style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div class="TextAndImage"
+                            style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                            <div class="Image"
+                                style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, #90B5AA 0%, #90B5AA 100%); border-radius: 16px">
+                            </div>
+                            <div class="Content"
+                                style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                                <div class="TitleDescription"
+                                    style="align-self: stretch; height: 84px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                    <div class="Title"
+                                        style="align-self: stretch; color: #1D1B20; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                        Duas for Hardship</div>
+                                    <div class="SecondaryText"
+                                        style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                        اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحُزْنِ وَالْعَجْزِ وَالْكَسَلِ
+                                        وَالْبُخْلِ وَالْجُبْنِ وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ<br />“O Allah,
+                                        I take refuge in You from anxiety and sorrow, weakness and laziness, miserliness
+                                        and cowardice, the burden of debts and from being overpowered by men.” (Bukhari)
+                                    </div>
+                                </div>
+                                <div class="LeadingTrailingIcons"
+                                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                    <div class="Leading"
+                                        style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                                        <div class="Icon"
+                                            style="width: 24px; height: 24px; padding: 2px; justify-content: center; align-items: center; display: flex">
+                                            <div class="Icon" style="width: 20px; height: 20px; background: #1D1B20">
+                                            </div>
+                                        </div>
+                                        <div class="Date"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            Today</div>
+                                        <div class="Separator"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            •</div>
+                                        <div class="Time"
+                                            style="flex: 1 1 0; color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            0.54 sec</div>
+                                    </div>
+                                    <div class="Icon"
+                                        style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                        <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ListItem03"
+                        style="align-self: stretch; height: 120px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div class="TextAndImage"
+                            style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                            <div class="Image"
+                                style="width: 120px; height: 120px; position: relative; background: linear-gradient(0deg, #948499 0%, #948499 100%); border-radius: 16px">
+                            </div>
+                            <div class="Content"
+                                style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                                <div class="TitleDescription"
+                                    style="align-self: stretch; height: 84px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                                    <div class="Title"
+                                        style="align-self: stretch; color: #1D1B20; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">
+                                        Duas for Difficult Times</div>
+                                    <div class="SecondaryText"
+                                        style="align-self: stretch; color: #49454F; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 20px; letter-spacing: 0.25px; word-wrap: break-word">
+                                        اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكِ عَمَّنْ
+                                        سِوَاكَ<br />“O Allah, suffice me with what You have allowed instead of what You
+                                        have forbidden, and make me independent of all others besides You.”
+                                        (Tirmidhi)<br /></div>
+                                </div>
+                                <div class="LeadingTrailingIcons"
+                                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                    <div class="Leading"
+                                        style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                                        <div class="Icon"
+                                            style="width: 24px; height: 24px; padding: 2px; justify-content: center; align-items: center; display: flex">
+                                            <div class="Icon" style="width: 20px; height: 20px; background: #1D1B20">
+                                            </div>
+                                        </div>
+                                        <div class="Date"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            Today</div>
+                                        <div class="Separator"
+                                            style="color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            •</div>
+                                        <div class="Time"
+                                            style="flex: 1 1 0; color: #49454F; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 16px; letter-spacing: 0.40px; word-wrap: break-word">
+                                            0.85 sec</div>
+                                    </div>
+                                    <div class="Icon"
+                                        style="width: 24px; height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 8px; padding-right: 5px; justify-content: center; align-items: center; display: flex">
+                                        <div class="Icon" style="width: 11px; height: 14px; background: #1D1B20"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="Image1"
+            style="width: 70px; height: 68px; left: 542px; top: 1266px; position: absolute; border-radius: 218px"
+            src="https://via.placeholder.com/70x68" />
+        <div class="Sukoonify"
+            style="width: 183px; height: 53px; left: 585px; top: 1272px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px; word-wrap: break-word">
+            SUKOONify</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
