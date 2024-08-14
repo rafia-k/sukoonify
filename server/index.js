@@ -18,7 +18,7 @@ app.post('/api/emotion', async (req, res) => {
         const response = await axios.post('https://api.openai.com/v1/completions', {
             model: 'text-davinci-003',
             prompt: `Determine the emotion from the following text: "${userInput}" and provide a corresponding Islamic content (e.g., Hadith, Quranic ayahs, duaas, stories of the Sahabah, links to lectures from scholars, relevant names of Allah, etc.) for that emotion.`,
-            max_tokens: 100
+            max_tokens: 300
         }, {
             headers: {
                 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,

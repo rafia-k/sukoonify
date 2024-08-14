@@ -20,7 +20,7 @@ const submitFeeling = async () => {
                 messages: [
                     { role: 'user', content: `Determine the emotion from the following text: "${userInput}" and provide a corresponding Islamic content (e.g., Hadith, Quranic ayah, duaa) for that emotion.` }
                 ],
-                max_tokens: 100,
+                max_tokens: 500,
                 temperature: 0.7
             })
         });
