@@ -4,6 +4,7 @@ const axios = require('axios');
 const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const API_KEY = ""; // Replace with your actual OpenAI API key
 
 // Serve static files from the "client" directory
 app.use(express.static(path.join(__dirname, '../client')));
@@ -21,7 +22,7 @@ app.post('/api/emotion', async (req, res) => {
             max_tokens: 300
         }, {
             headers: {
-                'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+                'Authorization': `Bearer ${API_KEY}`,
                 'Content-Type': 'application/json'
             }
         });

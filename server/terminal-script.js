@@ -2,6 +2,8 @@ const readline = require('readline');
 const axios = require('axios');
 require('dotenv').config();
 
+const API_KEY = ""; // Replace with your actual OpenAI API key
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -25,7 +27,7 @@ const fetchContent = async (userInput) => {
             temperature: 0.7
         }, {
             headers: {
-                'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+                'Authorization': `Bearer ${API_KEY}`,
                 'Content-Type': 'application/json'
             }
         });
